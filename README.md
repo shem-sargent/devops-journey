@@ -4,7 +4,7 @@
 
 Covid-19 has changed the world, so they say. It has changed mine. Laid off, floundering a bit, I have taken stock and decided to use this unplanned carrer derailment to learn somthing new. Or should I say, to learn something *well*, to learn it *right*, to learn it *intentionally*, rather than scraping up bits and pieces where time permits and circumstances demand.
 
-A web developer friend suggested Udemy and they had a sale I (and more importantly, my partner) couldn't resist: $10 or so for all their courses. I opted for a full stack web developer course and am now ready to dig in.
+A web developer friend suggested Udemy and they had a sale that I (and more importantly, my spouse) couldn't resist: $10 or so for each of their courses. I opted for a full stack web developer course and am now ready to dig in.
 
 This is my effort at creating a sustained sense of accountability. I will record everything about this journey that I reasonably can here. If you like good reading as much as I do, I hope I don't dissappoint you. If you like technical rigor with bits of humor and nonsense and occasional rants, you may actually enjoy sharing my journey.
 
