@@ -8,9 +8,13 @@
     - Install [Udemy Full Dark Theme](https://userstyles.org/styles/182187/udemy-full-dark-theme)
 - Install [Powershell 7](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7)
 - Install [VS Code 64-bit](https://go.microsoft.com/fwlink/?Linkid=852157)
-  - Install Extensions (`code --list-extensions`)
+  - List Extensions
+    - `code --list-extensions`
+  - Install Extensions
+    - `code --install-extension`  
+    Use the `--install-extension` switch multiple times on the command line to install multiple extensions at once.
     - equinusocio.vsc-material-theme-icons
-    - bierner.markdown-preview-github-styles
+    - bierner.markdown-preview-github-styles (disabled to use default VSCode dark preview, enabled to see what the file will look like on Github)
     - hnw.vscode-auto-open-markdown-preview
     - DavidAnson.vscode-markdownlint
     - eamodio.gitlens
