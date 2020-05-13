@@ -1,18 +1,30 @@
 # Web Development Course Work - Environment
 
-- Install VS Code 64-bit April 2020 (version 1.45)
-  - Theme: Rainglow CodeCourse (seemed appropriately named and looks good to my eyes)
-  - Extensions (`code --list-extensions`)
+- Install [Chrome](https://www.google.com/intl/en/chrome/)
+- Install [Vivaldi](https://vivaldi.com/download/)
+  - Install Stylish extension from Chrome Store
+    - Install [Github Dark Theme](https://userstyles.org/styles/168350/githubdarktheme)
+    - Install [Github Wide](https://userstyles.org/styles/108591/github-wide)
+    - Install [Udemy Full Dark Theme](https://userstyles.org/styles/182187/udemy-full-dark-theme)
+- Install [Powershell 7](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7)
+- Install [VS Code 64-bit](https://go.microsoft.com/fwlink/?Linkid=852157)
+  - Install Extensions (`code --list-extensions`)
+    - equinusocio.vsc-material-theme-icons
     - bierner.markdown-preview-github-styles
+    - hnw.vscode-auto-open-markdown-preview
     - DavidAnson.vscode-markdownlint
-    - daylerees.rainglow
     - eamodio.gitlens
     - GitHub.vscode-pull-request-github
-    - hnw.vscode-auto-open-markdown-preview
+    - esbenp.prettier-vscode
+    - formulahendry.auto-close-tag
+    - hex-ci.stylelint-plus
+    - dbaeumer.vscode-eslint
+    - naumovs.color-highlight
+    - DigitalBrainstem.javascript-ejs-support
+    - ritwickdey.LiveServer
+    - erikphansen.vscode-toggle-column-selection
     - ms-vscode-remote.remote-wsl
     - ms-vscode.powershell
     - tomoki1207.pdf
-    - yzhang.markdown-all-in-one
-
-- Install [Git for Windows 64-bit 2.26.2](https://github.com/git-for-windows/git/releases/download/v2.26.2.windows.1/Git-2.26.2-64-bit.exe)
-- Install [GitHub Desktop 2.4.3](https://central.github.com/deployments/desktop/desktop/latest/win32)
+- Install [Git for Windows 64-bit](https://github.com/git-for-windows/git/releases/latest)
+- Install [GitHub Desktop](https://central.github.com/deployments/desktop/desktop/latest/win32)
