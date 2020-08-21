@@ -1,0 +1,29 @@
+:root {
+    --color4: #fafafa;
+    --color3: #e8f1f5;
+    --color2: #005691;
+    --color1: #004a7c;
+    --c3: #033f63ff;
+    --c1: #28666eff;
+    --c4: #7c9885ff;
+    --c2: #b5b682ff;
+    --c5: #fedc97ff;
+}
+
+body {
+    background-color: var(--c1);
+}
+hr {
+    background-color: transparent;
+    border-color:  var(--c2);
+    width: 10%;
+    border-style: none;
+    border-width: 8px;
+    border-top-style: dotted;
+}
+h1, h3 {
+    color: var(--c5);
+}
+p, li {
+    color: var(--c4);
+}
