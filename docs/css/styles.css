@@ -45,18 +45,22 @@ p {
     padding: 10px 0;
 }
 
-
 .headshot {
-    border-radius: 50%;
+    border-radius: 40%;
     width: 200px;
 }
 
 .column1 {
     display: inline-block;
     position: relative;
-    top: -30px;
+    bottom: 30px;
 }
 
 .column2 {
     display: inline-block;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
