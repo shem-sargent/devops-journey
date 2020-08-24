@@ -13,60 +13,48 @@ body {
     background-color: var(--c1);
     margin: 0;
     text-align: center;
-    font-family: 'Merriweather', serif;}
-hr {
-    background-color: transparent;
-    border-color:  var(--c2);
-    width: 10%;
-    border-style: none;
-    border-width: 8px;
-    border-top-style: dotted;
-}
-h1, h2, h3 {
-    margin: 0 auto;
-    color: var(--c3);
-}
+    font-family: 'Montserrat', serif;}
 
 h1 {
     font-family: 'Nothing You Could Do', cursive;
     font-size: 4em;
+    margin: 0 auto;
+    color: var(--c3);
 }
 
-h2, h3 {
-    font-family: 'Montserrat', sans-serif;
+h2 {
+    font-family: 'Merriweather', sans-serif;
+    margin: 30px auto 10px;
+    color: var(--c2);
 }
 
-p, li {
+p {
     color: var(--c4);
-    margin-top: 0;
-}
-
-.container-layer {
-    position: absolute;
+    margin: 0 auto 5px;
 }
 
 .container-top {
-    display: block;
-    margin: 0 auto;
-}
-
-.container-middle {
-    display: block;
-    margin: 0 auto;
+    margin-top: 60px;
 }
 
 .container-bottom {
-    display: block;
-    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 
 .headshot {
-    display: block;
     border-radius: 50%;
-    width: 33%;
+    width: 200px;
 }
 
-.banner {
-    width: 100%;
+.column1 {
+    display: inline-block;
+    position: relative;
+    top: -30px;
+}
+
+.column2 {
+    display: inline-block;
 }
