@@ -13,7 +13,11 @@ body {
     background-color: var(--c1);
     margin: 0;
     text-align: center;
-    font-family: 'Montserrat', serif;}
+    font-family: 'Montserrat', serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
 h1 {
     font-family: 'Nothing You Could Do', cursive;
@@ -33,16 +37,19 @@ p {
     margin: 0 auto 5px;
 }
 
-.container-top {
-    margin-top: 60px;
+header {
+    padding-top: 60px;
+    background-color: var(--c2);
+    width: 100%;
 }
 
-.container-bottom {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+main {
+    flex: 1;
+}
+
+footer {
     background-color: var(--c2);
-    padding: 10px 0;
+    padding-top: 10px;
 }
 
 .headshot {
@@ -63,4 +70,8 @@ p {
 .tagline {
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+.links {
+    padding: 10px;
 }
