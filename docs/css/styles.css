@@ -41,6 +41,8 @@ p {
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: var(--c2);
+    padding: 10px 0;
 }
 
 
