@@ -1,18 +1,19 @@
+/*
+https://colorhunt.co/palette/180289
+*/
+
 :root {
-    --color4: #fafafa;
-    --color3: #e8f1f5;
-    --color2: #005691;
-    --color1: #004a7c;
-    --c3: #033f63ff;
-    --c1: #28666eff;
-    --c4: #7c9885ff;
-    --c2: #b5b682ff;
-    --c5: #fedc97ff;
+    --c1: #eeeeee;
+    --c2: #00adb5;
+    --c3: #393e46;
+    --c4: #222831;
 }
 
 body {
     background-color: var(--c1);
-}
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;}
 hr {
     background-color: transparent;
     border-color:  var(--c2);
@@ -21,9 +22,51 @@ hr {
     border-width: 8px;
     border-top-style: dotted;
 }
-h1, h3 {
-    color: var(--c5);
+h1, h2, h3 {
+    margin: 0 auto;
+    color: var(--c3);
 }
+
+h1 {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 4em;
+}
+
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 p, li {
     color: var(--c4);
+    margin-top: 0;
+}
+
+.container-layer {
+    position: absolute;
+}
+
+.container-top {
+    display: block;
+    margin: 0 auto;
+}
+
+.container-middle {
+    display: block;
+    margin: 0 auto;
+}
+
+.container-bottom {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.headshot {
+    display: block;
+    border-radius: 50%;
+    width: 33%;
+}
+
+.banner {
+    width: 100%;
 }
