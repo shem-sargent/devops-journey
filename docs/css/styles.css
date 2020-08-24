@@ -29,7 +29,7 @@ h1 {
 h2 {
     font-family: 'Merriweather', sans-serif;
     margin: 30px auto 10px;
-    color: var(--c2);
+    color: var(--c3);
 }
 
 p {
@@ -73,5 +73,9 @@ footer {
 }
 
 .links {
+    padding: 10px;
+}
+
+.links p a {
     padding: 10px;
 }
