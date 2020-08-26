@@ -38,7 +38,7 @@ p {
 }
 
 header {
-    padding-top: 60px;
+    padding-top: 100px;
     background-color: var(--c2);
     width: 100%;
 }
@@ -54,16 +54,17 @@ footer {
 
 .headshot {
     border-radius: 40%;
-    width: 200px;
+    width: 250px;
 }
 
 .column1 {
     display: inline-block;
     position: relative;
-    bottom: 30px;
+    bottom: 50px;
 }
 
 .column2 {
+    margin-left: 40px;
     display: inline-block;
 }
 
@@ -73,9 +74,9 @@ footer {
 }
 
 .links {
-    padding: 10px;
+    padding: 30px 0;
 }
 
 .links p a {
-    padding: 10px;
+    padding: 20px;
 }
