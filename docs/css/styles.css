@@ -79,4 +79,14 @@ footer {
 
 .links p a {
     padding: 20px;
+    text-decoration: none;
+}
+
+.links p a:hover {
+    color: var(--c1);
+}
+
+.copyright {
+    color: var(--c1);
+    font-size: 0.66rem;
 }
